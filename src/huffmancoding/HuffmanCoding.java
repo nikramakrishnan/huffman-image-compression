@@ -11,8 +11,8 @@ public class HuffmanCoding {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        String imgpath = "digital_image_processing.jpg";
+        		
+        String imgpath = args.length>0? args[0]:"digital_image_processing.jpg";
         
         Tree[] minheap;
         // Input
